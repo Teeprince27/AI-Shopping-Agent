@@ -73,20 +73,11 @@ ai-shopping-agent/
 
 ### Prerequisites
 - Java 21+
-- Maven 3.8+
+- Maven 3.+
 - DashScope API Key from [Alibaba Cloud](https://dashscope.aliyuncs.com)
 
 ### 1. Set Your API Key
 
-**Option A — Environment variable (recommended):**
-```bash
-export DASHSCOPE_API_KEY=your-real-api-key-here
-```
-
-**Option B — application.properties:**
-```properties
-dashscope.api-key=your-real-api-key-here
-```
 
 ### 2. Build & Run
 ```bash
